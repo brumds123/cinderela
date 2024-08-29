@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>A Aventura de Cinderela</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-cinderela0.png" alt="">
+            <p>Cinderela vivia com sua madrasta e suas meias-irmãs, sempre sendo deixada para trás. Um dia, uma fada madrinha apareceu e ofereceu a Cinderela a chance de mudar sua vida. Mas primeiro, ela precisava escolher um caminho.</p>
+            <button class="btn-proximo" data-proximo="1">Aceitar a ajuda da Fada Madrinha</button>
+            <button class="btn-proximo" data-proximo="2">Recusar e continuar em casa</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Cinderela decide aceitar a ajuda da Fada Madrinha, que com um toque de mágica transforma sua aparência e lhe dá um vestido magnífico para ir ao baile.</p>
+            <button class="btn-proximo" data-proximo="3">Ir ao baile</button>
+            <button class="btn-proximo" data-proximo="4">Ficar em casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Cinderela decide não aceitar a ajuda da Fada Madrinha e continuar com sua vida como era antes. No entanto, ela sempre se pergunta o que poderia ter acontecido.</p>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>No baile, Cinderela encanta a todos, inclusive o príncipe. Mas à meia-noite, o feitiço se quebrará. O que ela faz?</p>
+            <button class="btn-proximo" data-proximo="5">Ficar até o fim do baile</button>
+            <button class="btn-proximo" data-proximo="6">Sair antes da meia-noite</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <p>Ficando em casa, Cinderela nunca conhece o príncipe, e a vida segue como sempre.</p>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>O relógio bate meia-noite, e Cinderela corre, mas deixa para trás seu sapatinho de cristal. O príncipe jura encontrá-la.</p>
+            <button class="btn-proximo" data-proximo="7">Esperar o príncipe</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <p>Cinderela sai antes da meia-noite, sem deixar pistas de sua identidade. O príncipe fica perplexo, mas ela continua em segurança.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar ao baile no dia seguinte</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <img src="https://cinemaemcena.com.br/uploads/artigos/635641174410719566.jpg" alt="">
+            <p>O príncipe procura por toda a cidade até encontrar Cinderela. Eles vivem felizes para sempre.</p>
+        </div>
+        <div class="passo" id="passo-8">
+            <p>Cinderela volta ao baile, mas o príncipe já partiu em busca da moça misteriosa.</p>
+            <button class="btn-proximo" data-proximo="7">Esperar pelo príncipe</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
